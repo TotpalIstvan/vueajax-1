@@ -95,7 +95,7 @@ export default {
     },
     async saveStatue() {
       this.saving='disabled'
-     await fetch(`http://127.0.0.1:8000/statues/${this.statue.id}`, {
+     await fetch(`http://127.0.0.1:8000/api/statues/${this.statue.id}`, {
        method: 'PATCH',
        headers: {
         'Content-Type': 'application/json',
