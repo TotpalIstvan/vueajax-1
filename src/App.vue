@@ -4,7 +4,7 @@
     <table>
       <thead>
         <tr>
-          <th>Azonsító</th>
+          <th>Azonosító</th>
           <th>Ember</th>
           <th>Magasság</th>
           <th>Ár</th>
